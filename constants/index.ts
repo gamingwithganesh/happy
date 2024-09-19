@@ -82,8 +82,8 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "https://www.instagram.com/ganesh_b._shende?igsh=YW9zcTJ5cGNpOWRk&utm_source=qr",
+      src: "",
     },
     {
       name: "Facebook",
