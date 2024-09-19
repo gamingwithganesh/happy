@@ -33,12 +33,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Hey I am 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Ganesh{" "}
             </span>
-            project exprience
+            a front end dev
           </span>
         </motion.div>
 
@@ -49,6 +49,34 @@ const HeroContent = () => {
           I&apos;m a Computer Engineer and  Website Developer,
           Check out my projects and skills.
         </motion.p>
+        <div className="flex flex-row gap-5">
+          <a href="https://www.instagram.com/ganesh_b._shende/"> 
+             <Image
+              src="/instagram.svg"
+              alt='dafd'
+              width={44}
+              height={24}
+            />
+          </a>
+           
+          <a href=""> 
+             <Image
+              src="/facebook.svg"
+              alt='dafd'
+              width={44}
+              height={24}
+            />
+          </a>
+          <a href=""> 
+             <Image
+              src="/discord.svg"
+              alt='dafd'
+              width={44}
+              height={24}
+            />
+          </a>
+          
+        </div>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
@@ -56,6 +84,7 @@ const HeroContent = () => {
           Learn More!
         </motion.a>
       </div>
+      
 
       <motion.div
         variants={slideInFromRight(0.8)}
